@@ -1,0 +1,19 @@
+{
+  "name": "learning-center-skills",
+  "description": "Demo catalog of course skills from the learning center",
+  "owner": {
+    "name": "Learning Center Demo"
+  },
+  "plugins": [
+    {
+      "name": "ai-basics",
+      "source": "./plugins/ai-basics",
+      "description": "Course 1: write better prompts and learn new topics with Claude as a tutor"
+    },
+    {
+      "name": "workday-pack",
+      "source": "./plugins/workday-pack",
+      "description": "Course 2: everyday office skills for meeting notes and email tone"
+    }
+  ]
+}
